@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="detail_title"
+            android:id="@+id/detail_title"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="detail_time"
+            android:id="@+id/detail_time"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="detail_genre"
+            android:id="@+id/detail_genre"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="detail_site"
+            android:id="@+id/detail_site"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start_date"
+            android:id="@+id/start_date"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="end_date"
+            android:id="@+id/end_date"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="episode"
+            android:id="@+id/episode"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="release_date"
+            android:id="@+id/release_date"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:id="@+id/address"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="writer"
+            android:id="@+id/writer"
+            android:textSize="10pt"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
