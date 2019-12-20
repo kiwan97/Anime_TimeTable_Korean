@@ -32,6 +32,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends AppCompatActivity {
@@ -63,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         mViewpager = findViewById(R.id.viewPager);
         pagerAdapter = new TextViewPagerAdapter(this,Msg,Json);
         mViewpager.setAdapter(pagerAdapter);
-        mViewpager.setCurrentItem(35,false);
+        mViewpager.setCurrentItem(35+(Calendar.getInstance().get(Calendar.DAY_OF_WEEK))-1,false);
     }
 
     public void getAnimeTitle(String json){

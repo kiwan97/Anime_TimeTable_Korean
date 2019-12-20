@@ -40,6 +40,9 @@ public class MyAdapter extends BaseAdapter {
 
         TextView textview = view.findViewById(R.id.title_item);
         textview.setText(sample.get(position));
+
+        textview = view.findViewById(R.id.time_item);
+        //여기 부터textview.setText()
         return view;
     }
 }

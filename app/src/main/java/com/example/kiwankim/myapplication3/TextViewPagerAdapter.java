@@ -53,6 +53,9 @@ public class TextViewPagerAdapter extends PagerAdapter {
                 });
                 TextView weekday = view.findViewById(R.id.weekday);
                 weekday.setText(WeekDay2[pos]);
+
+                //옆에 시간부분 만들기
+
             }
 
             // 뷰페이저에 추가.
